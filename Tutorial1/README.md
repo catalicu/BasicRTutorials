@@ -233,5 +233,9 @@ See you soon!
 
 ## Review what you learned:
 How do you figure out what a function does?  
-You got an error message: how do you know what it means?  
-How do you become more proficient at coding?  
+<details><summary>answer</summary>
+<p>
+* Google it
+* type ?function.name on your R console
+</p>
+</details>
