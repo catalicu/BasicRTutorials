@@ -1,6 +1,6 @@
 # Tutorial 1: Getting Started with R
 
-Based on a document created by: Jason Pienaar and Tom Miller. 
+Based on a document created by: Jason Pienaar and Tom Miller.  
 Edited by: CCG 2021
 
 ## Outline
