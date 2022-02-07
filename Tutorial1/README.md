@@ -105,7 +105,7 @@ Example:
 ```
 
 You should get:
->455*544
+>455*544  
 >[1] 247520
  
 Run the following calculations:
@@ -227,7 +227,11 @@ class()
 Test them on the variables you have created so far: Vector1, Vector2, this.is.a.variable.containing.log.values.for.vector1, list_data. Do they work like you predicted they would? Did you encounter anything surprising? If so, describe it and explain what happened.
 
 ## This is the end of the tutorial
-Good job! You have completed your first session in Bioinformatics. 
-** Make sure you save your files to the cloud (they will be deleted from vlab once you log out!)
-** You can also directly submit to Canvas if you have completed all the work. See you soon!
+Good job! You have completed your first coding session in R. 
+** Make sure you save your files 
+See you soon!
 
+## Review what you learned:
+How do you figure out what a function does?  
+You got an error message: how do you know what it means?  
+How do you become more proficient at coding?  
