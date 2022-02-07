@@ -105,8 +105,8 @@ Example:
 ```
 
 You should get:
-> 455*544
-> [1] 247520
+>455*544
+>[1] 247520
  
 Run the following calculations:
 
