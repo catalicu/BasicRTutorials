@@ -42,7 +42,7 @@ Both PC and Macintosh versions of R can be downloaded from the [R home page](htt
 
 ### on HSU virtual labs:
 You can use a standardized set up on the school virtual lab (vlabs). To access vlabs:
-* [Click Here](https://vlab.humbold.edu)
+* [Click Here](https://vlab.humboldt.edu/)
 * Log in with your HSU information – complete the DUO authentication
 * Go to the search icon to the bottom left and search : ‘Rstudio’
 * Open R studio
