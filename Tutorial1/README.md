@@ -235,7 +235,26 @@ See you soon!
 How do you figure out what a function does?  
 <details><summary>answer</summary>
 <p>
-* Google it
+* Google it  
 * type ?function.name on your R console
+</p>
+</details>
+You got an error message: how do you know what it means?  
+<details><summary>answer</summary>
+<p>
+* Examine which objects/functions are named in the Error  
+* Check the spelling of each of your functions and objects  
+* Make sure you have clicked 'Run' on your lines of code, not simply wrote them in the script  
+* Copy your Error message and Google it  
+* Ask your coding community for help!
+</p>
+</details>
+How do you become more proficient at coding?  
+<details><summary>answer</summary>
+<p>
+* PRACTICE  
+* practice
+* practice some more
+* keep a journal
 </p>
 </details>
