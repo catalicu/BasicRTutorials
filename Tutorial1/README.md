@@ -37,16 +37,15 @@ Anything worth doing, from losing weight to getting a degree, takes time. Learni
 
 ## Accessing R 
 
+### Obtaining your own copy of R
+Both PC and Macintosh versions of R can be downloaded from the [R home page](http://www.r-project.org/)
+
 ### on HSU virtual labs:
-Although you can download in your personal computer (and you are encouraged to do so – find instructions on Canvas), we will work on a standardized set up on the school virtual lab (vlabs). To access vlabs:
-* [Click Here] (https://vlab.humbold.edu)
+You can use a standardized set up on the school virtual lab (vlabs). To access vlabs:
+* [Click Here](https://vlab.humbold.edu)
 * Log in with your HSU information – complete the DUO authentication
-* Access ‘vLab- Fall 2020’
 * Go to the search icon to the bottom left and search : ‘Rstudio’
 * Open R studio
- 
-### Obtaining your own copy of R
-Both PC and Macintosh versions of R can be downloaded from the [R home page] (http://www.r-project.org/)
  
 ## Before you start 
 
