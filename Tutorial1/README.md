@@ -236,6 +236,7 @@ How do you figure out what a function does?
 <details><summary>answer</summary>
 <p>
  * Google it  
+ 
  * type ?function.name on your R console
 </p>
 </details>
