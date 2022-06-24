@@ -52,6 +52,7 @@ You can also add elements to your vectors:
 ```
 Vector2=c(Vector1_log, 1.2, 0.2, 0.6)
 
+```
 Remember you can explore a vector by using indexes. For example, if we wish to print only the element in position 3 of Vector2, we index the element using square brackets as in the following example.
 
 ```
@@ -67,6 +68,7 @@ For example:
 ```
 list(1, ‘abc’, TRUE, 1+4i)
 ```
+
 You can name the items within a list:
 ```
 xlist=list(number=1, letters=‘abc’, logic=TRUE, imaginary=1+4i)
@@ -88,7 +90,9 @@ Creating data frames is relatively easy to do, directly in R. For example:
 dataframe1=data.frame(identity=letters[1:10], x=1:10, y=1:10)
 dataframe1
 ```
+
 You should obtain a data frame with 3 columns and 10 rows. You can explore the attributes of your data frame by using the following functions:
+
 ```
 head(dataframe1)
 tail(dataframe1)
@@ -144,6 +148,7 @@ Based on the vectors you have created, plot the curve that describes this nutrie
 ```
 plot(nutrient, diversity)
 ```
+
 Troubleshoot:
 * check the length of your vectors with length()
 * check that the name of the vectors matches the names you wrote in the plot function. 
@@ -161,7 +166,7 @@ diversity_heterogeneous=diversity
 nutrients_heterogeneous=nutrients
 ```
 
-Now create vectors for ‘diversity_homogeneous’ and ‘nutrient_homogeneous’. Here is some to get you started:
+Now create vectors for 'diversity_homogeneous' and 'nutrient_homogeneous. Here is some to get you started:
 
 ```
 diversity_homogeneous=c(0.35, 0.35, 0.25,0.26, 0.36)
@@ -187,3 +192,4 @@ What does this figure mean?
 How does the diversity change with nutrient levels when the environment is homogeneous?
 How is this different from the heterogeneous dataset?
 What does this difference mean?
+test
