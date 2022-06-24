@@ -11,18 +11,15 @@ Most of this code was originally developped for lessons in quantitative microbia
 **Index of tutorials**
 1. [Introduction to coding with Rstudio](/Tutorial1/README.md)
 2. [Data types and graphs](/Tutorial2/README.md)
-<<<<<<< HEAD
 3. [Import data and more figures](/Tutorial3/README.md)
 4. [Population growth](/Tutorial4/README.md)
 5. [Creating functions: 'mydilutioncalculator'](/Tutorial5/README.md)
 6. [Basic statistics](/Tutorial6/README.md)
 7. [Multivariate approaches](/Tutorial7/README.md)
 8. [Bacterial identification](/Tutorial8/README.md)
-=======
 3. [Import data and more figures](Tutorial3/README.md)
 4. Population growth
 5. Creating functions: 'mydilutioncalculator'
 6. Basic statistics
 7. Multivariate approaches
 8. Bacterial identification
->>>>>>> 1013992826a5c29381ccb51c9d7da240ebbd6a6f
