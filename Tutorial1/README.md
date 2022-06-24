@@ -1,7 +1,7 @@
 # Tutorial 1: Getting Started with R
 
 Based on a document created by: Jason Pienaar and Tom Miller.  
-Edited by: CCG 2021
+Edited by: CCG 2022
 
 ## Outline
 
@@ -39,13 +39,18 @@ Anything worth doing, from losing weight to getting a degree, takes time. Learni
 
 ### Obtaining your own copy of R
 Both PC and Macintosh versions of R can be downloaded from the [R home page](http://www.r-project.org/)
+> **Note**
+> There are important differences on how to navigate RStudio in PC vs Mac. There are also differences on how you write certain things. Find a list of these instances [HERE](https://libguides.libraries.claremont.edu/c.php?g=480755&p=3350989)
 
-### on HSU virtual labs:
+### on Cal Poly Humboldt virtual labs:
 You can use a standardized set up on the school virtual lab (vlabs). To access vlabs:
 * [Click Here](https://vlab.humboldt.edu/)
-* Log in with your HSU information – complete the DUO authentication
+* Log in with your Cal Poly Humboldt information – complete the DUO authentication
 * Go to the search icon to the bottom left and search : ‘Rstudio’
 * Open R studio
+
+### Use RStudio in Cal Poly Humboldt computers:
+Most computer labs are equipped with RStudio. Log in with your Cal Poly Humboldt information and search for RStudio in the search bar or within the list of applications. 
  
 ## Before you start 
 
@@ -64,8 +69,8 @@ You can use a standardized set up on the school virtual lab (vlabs). To access v
 
 ## What does it look like and what does it all mean
 ![Fig1](Tut1_figs/Fig1_CIRMBioinf.jpeg) 
- 
 Figure 1 is a typical workspace in Rstudio, with four panels. You may have to open a new script (source) when you open the program for the first time: click on the new script icon to the top-left corner (see Fig 1, indicated with a yellow arrow)The most important panels right now are on the left, the source and the console. The source code in the top-left corner is where you will type your code and save your script. The console is where the code runs. You can write code directly to the console to find whether it works or not, or the answer to a calculation. You can also send your code from the source to the console to run. Importantly, you will be saving your source code, if you are typing in the console, you will be unable to save your progress or reuse your code. Therefore, I recommend you ALWAYS type and work on the source panel and send your code to run and see the output on the console. The panels on the right will display your data tables, plots, help and other features, but we will get to those later.
+ 
  
 ### Task 1
 In these tutorials, you will regularly find tasks interspersed with guidelines and code. In these tasks, you have to use the code you learned to complete some challenge, then upload a document with the results from each task (see provided example). Task 1 consists of some very simple exercises in R. Answer these on a separate word document and upload to your Canvas assignment page once you are finished.
