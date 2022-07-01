@@ -250,14 +250,14 @@ Write down all the different classes of objects we have covered so far and expla
 
 ### Task 6
 To explore the different types of elements in R, you will explore some functions on your own. Feel free to google and talk to your peers to complete this task. Make sure you understand the main difference between the classes and functions mentioned here. In your own words explain what these functions do: 
-is.character() 
-as.character() 
-is.numeric() 
-as.numeric() 
-is.logical() 
-as.logical() 
-factor() 
-class() 
+is.character()  
+as.character()  
+is.numeric()  
+as.numeric()  
+is.logical()  
+as.logical()  
+factor()  
+class()  
 
 Test them on the variables you have created so far: Vector1, Vector2, this.is.a.variable.containing.log.values.for.vector1, list_data. Do they work like you predicted they would? Did you encounter anything surprising? If so, describe it and explain what happened.
 

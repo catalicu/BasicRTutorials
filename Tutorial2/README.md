@@ -33,17 +33,28 @@ To make the best of the R language, you will need a strong understanding of thes
 ### Numeric and integer
 Numeric objects can be real, integers or have decimals. Ex: ‘2’, ’14.5’, ‘0.8’, ‘15683’
 Integers are always real numbers with no decimals. Ex: ‘2L’, ‘15L’ – the L tells R to store this object as an integer. 
-Type a couple of numbers and run in Rstudio:
+Type a couple of numbers and run in Rstudio: include an integer and a decimal.
 
 ### Character
 Characters are letters or symbols: ‘a’, ‘-‘, ‘?’
-When you put them together, you create strings – that look like words: ‘vector’, ‘dataset1’
+When you put them together, you create strings – that look like words: ‘vector’, ‘dataset1’, 'ATCACCGCATACCCCAATACG'. 
+Type a character string that represents mRNA.
+What is the difference between RNA and DNA in terms of sequences? (lets not forget about the biology!) 
+<details><summary>answer</summary>
+<p>
+ 
+ * Uracil (U) instead of Thymine (T)
+ 
+</p>
+</details>
+
 
 ### Logic
 Logical arguments are statements that can be TRUE or FALSE. For example, ‘1+1 == 1’ is FALSE. In this expression, ‘==’ is equivalent to an equal sign. Alternatively, ‘=!’ means unequal to. Thus, ‘1+1=! 1’ is TRUE. 
 
 ### Quick self-test!
-What type of data are these?
+What type of data are these? 
+
 (a)
 ```
 1894
@@ -60,8 +71,8 @@ What type of data are these?
 <p>
  
  (a) is numeric  
- (b) is logical
- (c) is a character string: several characters together in a string
+ (b) is logical  
+ (c) is a character string: several characters together in a string  
  
 </p>
 </details>
@@ -129,26 +140,27 @@ nrow(dataframe1)
 ncol(dataframe1)
 ```
 
-What did you get? What do these functions do?
+What did you get? What do these functions do? How did you figure it out?
+
 <details><summary>answer</summary>
 <p>
-You probably figured out that:
-* head() gives you the top portion of your data frame
-* tail() gives you the bottom portion
-* dim() gives you the dimensions - thus number of rows and columns
-* rnow() indicates specifically the number of rows
-* ncol() the number of columns
+You probably figured out that:  
+* head() gives you the top portion of your data frame  
+* tail() gives you the bottom portion  
+* dim() gives you the dimensions - thus number of rows and columns  
+* rnow() indicates specifically the number of rows  
+* ncol() the number of columns  
 </p>
 </details>
 
 You will always run into new functions and have to develop good strategies to learn about them. Coding is much more about learning to learn than having a fixed knowledge. How do you learn what a new function does?
 <details><summary>answer</summary>
 <p>
-* google it
-* ask your friends
-* ask R with a question mark before the name of the function. Example: ?head or ?dim
-* try it out! try using the function with different types of objects
-* dont be shy! coding is about acknowledging what you dont know, and trying new things
+* google it   
+* ask your friends  
+* ask R with a question mark before the name of the function. Example: ?head or ?dim  
+* try it out! try using the function with different types of objects  
+* dont be shy! coding is about acknowledging what you dont know, and trying new things  
 </p>
 </details>
 
@@ -163,19 +175,19 @@ secretObject2=data.frame(seq(1:10), rnorm(10,mean=50))
 ```
 Even though you can probably figure out what type of data they are from the code, consider some of the following functions to explore them. Look them up and figure out how they are useful to explore your objects.
  
-str()
-dim()
-length()
-names()
-colnames()
-is.character()
-as.character()
-is.numeric()
-as.numeric()
-is.logical()
-as.logical()
-factor()
-class()
+str()  
+dim()  
+length()  
+names()  
+colnames()  
+is.character()  
+as.character()  
+is.numeric()  
+as.numeric()  
+is.logical()  
+as.logical()  
+factor()  
+class()  
 
 In your answer to this task: explain what type of data each object is and how you can use these functions to explore them. 
 
