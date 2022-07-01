@@ -56,12 +56,12 @@ Most computer labs are equipped with RStudio. Log in with your Cal Poly Humboldt
 
 ### Best practices
 
-### Tips to learn to code
+#### Tips to learn to code
 * PRACTICE! A good practice consists on writing code. Do not copy and paste, do not assume that you got it by reading the tutorial: type it yourself.
 * A better practice is to make sure you understand what each line of code is doing. Use # to annotate your code (see below to find out what I mean).
 * Keep a notebook with these explanations: ‘File_tutorial2.R line 102: this function sums all the numbers in a vector’. 
 
-### Some R resources
+#### Some R resources
 * [Useful R Reference Cheatsheet by Tom Short](https://cran.r-project.org/doc/contrib/Short-refcard.pdf)
 * [Basic skills by Quick R](https://www.statmethods.net)
 * [Advanced skills Cheatsheet by Arianne Colton and Sean Chen](https://rstudio.com/wp-content/uploads/2016/02/advancedR.pdf)
@@ -69,24 +69,29 @@ Most computer labs are equipped with RStudio. Log in with your Cal Poly Humboldt
 
 ## What does it look like and what does it all mean
 ![Fig1](Tut1_figs/Fig1_CIRMBioinf.jpeg) 
-Figure 1 is a typical workspace in Rstudio, with four panels. You may have to open a new script (source) when you open the program for the first time: click on the new script icon to the top-left corner (see Fig 1, indicated with a yellow arrow)The most important panels right now are on the left, the source and the console. The source code in the top-left corner is where you will type your code and save your script. The console is where the code runs. You can write code directly to the console to find whether it works or not, or the answer to a calculation. You can also send your code from the source to the console to run. Importantly, you will be saving your source code, if you are typing in the console, you will be unable to save your progress or reuse your code. Therefore, I recommend you ALWAYS type and work on the source panel and send your code to run and see the output on the console. The panels on the right will display your data tables, plots, help and other features, but we will get to those later.
+
+The typical workspace in Rstudio has four working panels (Fig1). You may have to open a new script (source) when you open the program for the first time: click on the new script icon to the top-left corner (see Fig 1, indicated with a yellow arrow). The most important panels right now are on the left, the source and the console. The source code in the top-left corner is where you will type your code and save your script. The console is where the code runs. You can write code directly to the console to find whether it works or not, or the answer to a calculation. You can also send your code from the source to the console to run. Importantly, you will be saving your source code, if you are typing in the console, you will be unable to save your progress or reuse your code. Therefore, I recommend you ALWAYS type and work on the source panel and send your code to run and see the output on the console. The panels on the right will display your data tables, plots, help and other features, but we will get to those later.
  
  
 ### Task 1
-In these tutorials, you will regularly find tasks interspersed with guidelines and code. In these tasks, you have to use the code you learned to complete some challenge, then upload a document with the results from each task (see provided example). Task 1 consists of some very simple exercises in R. Answer these on a separate word document and upload to your Canvas assignment page once you are finished.
-a. Try typing ‘5’ in your source code, or any other number or letter, and then click on ‘Run’, near the top-right of the source panel. What happened?
+In these tutorials, you will regularly find tasks interspersed with guidelines and code. In these tasks, you have to use the code you learned to complete some challenge. If you are completing these tutorials for class credit at Cal Poly Humboldt you will have to put together your answers to these tasks and turn in with the relevant code to complete each week's assignment.
+
+Task 1 consists of some very simple exercises in R.
+a. Try typing ‘5’ in your source code, or any other number or letter, and then click on ‘Run’, near the top-right of the source panel. What happened? Describe in your own words.
 b. We can type comments on the source code that don’t run on the console by using ‘#’. Anything written to the right of the ‘#’ will not run. Try typing: ‘5 # is my favorite number’ in the source, and click on ‘Run’. What happened?
 c. Save your script: On the RStudio top menu, select save as, and save your script (right now you should have 2 lines, if you answered a and b above) as ‘myfirstscript.R’. Save all your progress from this tutorial and upload the script file to your Canvas assignment as well.
 
-### Saving your work
-As with any other type of file, you need to save your scripts for later use. When working in R or Rstudio, you will be saving the Source code. This is a common misconception: you will not be saving the output in the console, so make sure you are typing your code in the Source code window and then running it, otherwise you risk losing your work and being unable to replicate it. In R studio, go to File and Save as, just like you would with other types of documents. 
+## Saving your work
+As with any other type of file, you need to save your scripts for later use. I recommend you save your script within a folder you keep specifically for the class, this will make things easier later. 
 
-When working in vlabs: Make a folder with your name in the Desktop and store all your files in there (scripts, outputs, data files). You will then need to send these files to yourself using your Google Drive, Dropbox or email. IMPORTANT: do not log out of vlab before you store your files in the cloud! The files will be deleted when you log in and you will lose your work. 
+When working in R or Rstudio, you will be saving the Source code. This is a common misconception: you will not be saving the output in the console, so make sure you are typing your code in the Source code window and then running it, otherwise you risk losing your work and being unable to replicate it. In R studio, go to File and Save as, just like you would with other types of documents. Save your work NOW!
+
+When working in vlabs or other types of remote computer access: Make a folder with your name in the Desktop and store all your files in there (scripts, outputs, data files). You will then need to send these files to yourself using your Google Drive, Dropbox or email. IMPORTANT: do not log out of vlab before you store your files in the cloud! The files will be deleted when you log in and you will lose your work. 
  
 ## The Simplest Tricks with R:
 
 ### Basic arithmetic
-Open the R program by double clicking on the R icon. Under the opening message, you will find the “>” prompt, waiting for you to ask R to do something. Data analyses in R proceeds as an interactive dialogue. We type an S statement at the > prompt, press Enter, and the interpreter executes the statement, i.e. by returning a result, producing graphical output or sending output to a file or device. Try typing in the following simple arithmetic examples (just type what follows the prompt > and then <kbd>Enter<kbd>).
+Open the R program by double clicking on the R icon. Under the opening message within the console, you will find the “>” prompt, waiting for you to ask R to do something. Data analyses in R proceeds as an interactive dialogue. We type an S statement at the > prompt, press Enter, and the interpreter executes the statement, i.e. by returning a result, producing graphical output or sending output to a file or device. Try typing in the following simple arithmetic examples: just type what follows the prompt > and then <kbd>Enter<kbd> .
 
 ```
 2+3
@@ -101,7 +106,8 @@ Open the R program by double clicking on the R icon. Under the opening message, 
 The usual precedence for mathematical operators is followed (multiplication and division first, then addition and subtraction). In general, R ignores spaces and so they are not necessary, but for bigger expressions spaces may improve the readability.
  
 ### Task 2
-In these tutorials, you will regularly find tasks interspersed with guidelines and code. In these tasks, you have to use the code you learned to complete some challenge, then upload a document with the results from each task (see provided example). Task 1 consists of doing simple calculations in R. In the document you turn in, show your code and the answer for each one.
+Let's do some simple calculations in R. In the document you turn in, show your code and the answer for each one.
+
 Example:
 
 ```
@@ -123,7 +129,7 @@ Run the following calculations:
 
 And: The year you were born – today’s date (just the day) * your favorite number
 
-These outputs you have created so far are numbers, or class numeric. Lets keep that in mind as we move to other classes.
+These outputs you have created so far are **numbers, or class numeric**. Lets keep that in mind as we move to other classes.
 
 ## R functions
 R is a functional programming language meaning that pretty much everything we do in R is in terms of functions. R includes hundreds of built-in functions for mathematical calculations (including matrix algebra, which is extremely useful in statistics), data analyses, graphing, etc. Values passed to functions are specified within parenthesis after the function name. Here are some simple examples to try:
@@ -149,6 +155,21 @@ Explore the functions seq and rep. Use the help to find more about them. Explain
 ## Data types and data structures
 
 ### Variables and Vectors
+You can store your numeric objects within a variable. To distinguish between variables, we give them names. For example:
+
+```
+MyFirstVariable = 5
+MyFirstVariable
+```
+Now, every time you write its name, you will obtain the number 5. Notice that spelling and capitalization are very important for variable calling, if I tried to call my variable bur wrote 'myfirstvariable', I would obtain an error. Try it out!
+
+You can even perform operations on the variable directly, like this:
+
+```
+MyFirstVariable * 123
+```
+It is important to keep track of the types of data or class of the object stored within a variable. So far, we have only talked about and stored individual numerical class data.
+
 Most R functions (including the simple arithmetic ones from above) can operate on more complex data structures that individual numbers. The simplest data structure (and one that we will use often) is a vector. A vector contains a series of numeric items. To construct a vector use the c function (c for concatenate):
 
 ```
@@ -193,17 +214,25 @@ While vectors only contain numbers, lists can contain mixed types of elements in
 Create a list using the following code:
 
 ```
-list_data=list(color='red', vector=c(21,23,43), password=TRUE, Temperature=21.5)
+list_data = list(color='red', vector=c(21,23,43), password=TRUE, Temperature=21.5)
 print(list_data)
 ```
 
 Notice how printing your list gives you each of the stored pieces of information in order, regardless of their class. You can inquire about the types of data you have at each position of the list:
 
 ```
+list_data[1]
+class(list_data[[1]])
+```
+A character is typically stored in a single byte of information and represents a symbol. An easy way to think about them is to think about letters. The letter 'a' is a character. The word 'red' is a string of characters, or several characters stored together in a single variable. Notice how characters and character strings are indicated with quotation marks '', thus telling the computer: I am about to enter a character or string of characters. This class of object is very useful to store species names, DNA sequences ('ATATTGCGGCCCAT') and non-numeric information that describes your samples or measurements.
+
+```
 list_data[3]
 class(list_data[[3]])
 ```
-Uh! Logical class. This class of elements in R indicate true or false statements. We had not run into these before. If you try the other elements in the list you will find numeric, character strings and lists. The next layer of complexity is data frames and matrices, but, importantly, by now you have probably realized that R is much more than just a calculator. It can manipulate data, conduct much of the same statistics covered in SAS, JMP, Canoco, etc., and has excellent graphic capabilities. It can also serve as a programming language. We will cover examples of these in subsequent days of this workshop.
+Uh! Logical class. This class of elements in R indicate true or false statements. We had not run into these before. 
+
+The next layer of complexity is data frames and matrices, but, importantly, by now you have probably realized that R is much more than just a calculator. It can manipulate data, conduct much of the same statistics covered in SAS, JMP, Canoco, etc., and has excellent graphic capabilities. It can also serve as a programming language. We will cover examples of these later in the tutorials.
 
 Let's practice some of these skills before we move on.
  
@@ -220,15 +249,16 @@ labeled plot. Type plot(variable) to create a scatter plot of your variables aga
 Write down all the different classes of objects we have covered so far and explain what they contain in your own words. Then, provide an example regarding how we could use each one to store information in microbial ecology.
 
 ### Task 6
-To explore the different types of elements in R, you will explore some functions on your own. Feel free to google and talk to your peers to complete this task. Make sure you understand the main difference between the classes and functions mentioned here. In your own words explain what these functions do:
-is.character()
-as.character()
-is.numeric()
-as.numeric()
-is.logical()
-as.logical()
-factor()
-class()
+To explore the different types of elements in R, you will explore some functions on your own. Feel free to google and talk to your peers to complete this task. Make sure you understand the main difference between the classes and functions mentioned here. In your own words explain what these functions do: 
+is.character() 
+as.character() 
+is.numeric() 
+as.numeric() 
+is.logical() 
+as.logical() 
+factor() 
+class() 
+
 Test them on the variables you have created so far: Vector1, Vector2, this.is.a.variable.containing.log.values.for.vector1, list_data. Do they work like you predicted they would? Did you encounter anything surprising? If so, describe it and explain what happened.
 
 ## This is the end of the tutorial
@@ -242,7 +272,7 @@ How do you figure out what a function does?
 <p>
  
  * Google it  
- * type ?function.name on your R console  
+ * type ?function.name on your R console. Press enter and read the help tab. 
 </p>
 </details>
 You got an error message: how do you know what it means?  

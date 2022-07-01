@@ -4,9 +4,9 @@ This series of tutorials should get you started in using Rstudio to generate, ma
 > **NOTE** 
 > This was developed in the context of the Microbial Ecology course (BIOL433/533) Cal Poly Humboldt. Therefore, expect all examples to refer to microbial organisms and peer reviewed literature within the field of microbial ecology.
 
-We are making these available here in the context of the Humboldt State University Bioinformatics in Biological Sciences (HUBBS) coding group with the intent of providing intro material for members - and other coding enthousiasts!
+We are making these available here in the context of the Cal Poly Humboldt Bioinformatics in Biological Sciences (HUBBS) coding group with the intent of providing intro material for members - and other coding enthousiasts!
 
-Most of this code was originally developped for lessons in quantitative microbial ecology by Dr. Cuellar-Gempeler (Humboldt State University). Several of these include coding activities developped by Casey terHorst (California State University at Northridge) and Tom Miller (Florida State University). We anticipate to edit and develop these lessons further to improve on their pedagogical capabilities. They are geared towards 1hr activities but have other indepth tasks for those that want to go deeper.
+Most of this code was originally developped for lessons in quantitative microbial ecology by Dr. Cuellar-Gempeler (Humboldt State University). Several of these include coding activities developped by Casey terHorst (California State University at Northridge) and Tom Miller (Florida State University). We anticipate to edit and develop these lessons further to improve on their pedagogical capabilities.
 
 **Index of tutorials**
 1. [Introduction to coding with Rstudio](/Tutorial1/README.md)
