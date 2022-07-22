@@ -11,7 +11,7 @@ The goal of any multivariate analysis is first to look at the similarities and d
 
 Table 1. Example sample-site table.  
 
-![fig1](tut7_figs/table1.png)			
+![fig1](tut7_figs/table1.png)  	
 There are a few steps in multivariate analysis and these are summarized in the image below (Figure 1). At this point, we’ve briefly gone over step one: the sample-species table. We will further explore how to manipulate your data to obtain tables in the correct format. In the interest of time, will jump over step 2, but you are encouraged to look at the additional materials in part 3 of this tutorial to learn about distance matrices. We will instead focus on step 3 and learn how to calculate and plot an ordination, how to evaluate the statistical significance of a multivariate dataset, and how to interpret the outputs of your multivariate analysis. If you want to learn more about clustering and discriminant analysis, we encourage you to explore the resources in Part 3 of this tutorial. 
 Figure 1. Three steps in multivariate analysis. First: Species-site table and data formatting. Second: Distance matrix, where we calculate the compositional similarity between each pair of sites. Third: Visualization approaches and stats, include cluster analyses and ordination techniques. Four: How to interpret your results. Here we will focus on part 1, the ordination in part 3 and interpretation in part 4. 
 
@@ -163,11 +163,11 @@ Before moving forward, here are some handy definitions that come up with multiva
 Univariate measures: While univariate measures are distinctly NOT a part of multivariate analysis, they often come with it as they are great ways to quantify communities separately, which can then be compared. The main univariate measures used in ecology are evenness, richness, and diversity. Remember that with these, they describe a single community, which can then be compared to the univariate measures calculated from other communities.  
 
 ### 3.2 For more information on Ordination: 
-* Daniel Borcard of the Université de Montréal: http://ubio.bioinfo.cnio.es/Cursos/CEU_MDA07_practicals/Further%20reading/Multivariate%20analysis%20Borcard%202006/Chap_4b.pdf  
-* Michael Palmer in the Botany Department of Oklahoma State University: http://ordination.okstate.edu/overview.htm
+* [Daniel Borcard of the Université de Montréal](http://ubio.bioinfo.cnio.es/Cursos/CEU_MDA07_practicals/Further%20reading/Multivariate%20analysis%20Borcard%202006/Chap_4b.pdf)
+* [Michael Palmer in the Botany Department of Oklahoma State University](http://ordination.okstate.edu/overview.htm)
 * Alban Ramette, Multivariate analyses in microbial ecology, FEMS Microbiology Ecology, Volume 62, Issue 2, November 2007, Pages 142–160, https://doi.org/10.1111/j.1574-6941.2007.00375.x  
-https://sites.google.com/site/mb3gustame/  
-* Lewis Doty: Ecology Center : https://www.ecologycenter.us/population-dynamics-2/unconstrained-versus-constrained-ordination.html  
+[HERE](https://sites.google.com/site/mb3gustame/)  
+* [Lewis Doty: Ecology Center](https://www.ecologycenter.us/population-dynamics-2/unconstrained-versus-constrained-ordination.html)  
 * Pierre Legendre is one of the most cited researchers in regards to ordinating ecological data. A few of his publications for further reading are included below. 
 * Legendre P, Legendre L. Numerical Ecology. 2nd ed. Amsterdam: Elsevier, 1998. ISBN 978-0444892508.  
 * Legendre, P., Gallagher, E.D. Ecologically meaningful transformations for ordination of species data. Oecologia 129, 271–280 (2001). https://doi.org/10.1007/s004420100716  
