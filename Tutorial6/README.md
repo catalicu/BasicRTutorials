@@ -27,7 +27,7 @@ getwd()
 
 Then begin your script with some information. Use the hashtag to begin inputting text that will not run in the console. Include the author’s name, the date, and a one-sentence description of the goal of this script. Here is mine as an example:
 
-![Fig0](/tut6_figs/fig0_scripthead.jpg)
+![Fig0](tut6_figs/fig0_scripthead.jpg)
 
 
 
@@ -144,7 +144,7 @@ Ho: the means or all groups are equal
 Hi: the means are not all equal (some are different)
 
   
-![Fig1](/tut6_figs/fig1_vardist.jpeg)
+![Fig1](tut6_figs/fig1_vardist.jpg)
 
 Figure1. Example of variance distribution a) compared to the grand mean and b) compared to each explanatory variable’s mean. If the variance calculates in (a) and (b) are similar, Ho cannot be rejected. If the variance in (a) is higher than in (b) there potential significant differences between the means of the explanatory factors (but you don’t know which ones are different yet). Taken from Gimond Github. 
 
