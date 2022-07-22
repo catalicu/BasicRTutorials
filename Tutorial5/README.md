@@ -86,8 +86,9 @@ D.	You can make anonymous functions with no name. These are useful for one line 
 
 ## Part 2 – Making a function to facilitate calculations for serial dilutions in microbiology  
 
-There are different calculations that need to be made to use serial dilutions in microbiology (Figure 1). Complete the following tasks in order to produce a working function that can help you with lab calculations. 
-![Fig1](tut5_figs/serialdilution_fig1.jpeg) 
+There are different calculations that need to be made to use serial dilutions in microbiology (Figure 1). Complete the following tasks in order to produce a working function that can help you with lab calculations.  
+
+![Fig1](tut5_figs/serialdilution_fig1.jpg)  
 Figure 1. Serial dilution of an E. coli sample. Test tubes were used to obtain culture dilutions at 10-1, 10-2, 10-3, 10-4, and 10-5. Solutions from tubes 10-3, 10-4, and 10-5 were plated using 0.1mL and a spread technique. Resulting CFU are indicated for each plate. 
 
 ### Task 1. Define what your function will do. Although a good broader goal is to have a series of functions that accomplish all of these calculations, it is a good idea to start small. Here are a couple of ideas to start with (but you can choose to go on a different direction):
