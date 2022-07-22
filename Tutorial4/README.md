@@ -4,7 +4,7 @@ Edited by: CCG 2021
 
 While R is perhaps best known as a statistical tool for analyzing data or for making graphs, it is also really useful as a simple programming language and compiler. This means that we can write computer programs in the R language. In the context of microbial ecology (and biology in general), a useful application of these programs is to generate simulations that are representative of mathematical models. If we know the processes that underlie a particular biological pattern and the relationships between processes, we can write mathematical formulas and try to predict how the system behaves. We have discussed this in the class in terms of population growth models, and we will revisit this when we talk about species interactions. Because the programs you write can then incorporate other R functions, they can often be incredibly useful for analyzing and visualizing simulated data.
 
-Additional resources in R programming:
+Additional resources in R programming:  
 •	Learn R Programming: the definitive guide. https://www.datamentor.io/r-programming/
 
 ## 1. Introduction to basic R functionality
