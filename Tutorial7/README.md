@@ -137,15 +137,21 @@ What is the ‘+ theme_bw()’ doing? I like it better this way.
 
 From here, we can color code the points by particular sample types - in this case productivity of a sample. This will allow us to explore the influence of any parameter on community structure. 
 
+```
 autoplot(NbactPCA, data = metadata) + geom_point(aes(col=productivity)) + theme_bw()
+```
 
 We can also add the labels to the points coding them as their row names - pointing out which specific sample each point represents. We won’t include this in our final plot but it can be useful at times. 
 
+```
 autoplot(NbactPCA, data = metadata, label=TRUE, shape=FALSE) + geom_point(aes(col=productivity), size=2)+ theme_bw()
+```
 
 Finally, we can add the eigenvectors representing our guild abundance data using loadings. Loadings are the correlation coefficients between the variables (rows) and factors (columns) and show how correlated a variable is with the ordination. Here, we’re interested in how guild abundance varies across the ordination, and if there are any correlations. 
 
+```
 autoplot(NbactPCA, data = metadata, loadings=TRUE, loadings.colour=’red’, loadings.label=TRUE, loadings.label.size=3) + geom_point(aes(col=productivity)) + theme_bw()
+```
 
 # You have completed this tutorial!
 
