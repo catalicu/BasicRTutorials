@@ -18,8 +18,3 @@ Most of this code was originally developped for lessons in quantitative microbia
 7. [Multivariate approaches](/Tutorial7/README.md)
 8. [Bacterial identification](/Tutorial8/README.md)
 3. [Import data and more figures](Tutorial3/README.md)
-4. Population growth
-5. Creating functions: 'mydilutioncalculator'
-6. Basic statistics
-7. Multivariate approaches
-8. Bacterial identification
