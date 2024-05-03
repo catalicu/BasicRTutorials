@@ -1,4 +1,4 @@
-# Tutorial 4: Intro to Programming: a population growth simulation
+# Tutorial 4: Intro to Programming - a population growth simulation
 Based on a document created by: Thomas E. Miller
 Edited by: CCG 2021
 
