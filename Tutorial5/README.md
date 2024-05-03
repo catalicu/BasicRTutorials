@@ -1,4 +1,4 @@
-# R Tutorial 6: Creating functions 
+# R Tutorial 5: Creating functions 
 Created by: CCG 2020
 Edited by: CCG 2021
 
