@@ -1,4 +1,4 @@
-# Tutorial 6: Multivariate analyses of microbial communities
+# Tutorial 7: Multivariate analyses of microbial communities
 Based on a document created by: Thomas E. Miller
 Edited by: Olivia Evans 2020, CCG 2020
 
